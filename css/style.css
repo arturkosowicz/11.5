@@ -1,0 +1,47 @@
+body {
+	background-color: #7a7a52;
+	font-family: Lato, sans-serif;
+	font-weight: 400;
+}
+
+main {
+	text-align: center;
+	color: #FFF;
+}
+
+header {
+	margin: 70px 0 100px 0;
+	font-size: 30px;
+}
+
+.box {
+	color: rgba(255, 255, 255, 0.8);
+}
+
+.buttons {
+	margin-top: 100px;
+}
+
+button {
+	display: block;
+	margin: 20px auto;
+	background-color: transparent;
+	color: #FFF;
+	width: 250px;
+	height: 30px;
+	border: 1px solid rgba(255, 255, 255, 0.8);
+}
+
+button a {
+	text-decoration: none;
+	color: #FFF;
+}
+
+button i.fa {
+	margin-right: 5px;
+}
+
+button:hover {
+	cursor: pointer;
+	background-color: #338ACC;
+}
